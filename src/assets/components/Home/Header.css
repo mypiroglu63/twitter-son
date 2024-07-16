@@ -1,0 +1,31 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: black;
+  z-index: 1000;
+}
+
+.header-content {
+  display: flex;
+  justify-content: center;
+}
+
+.header-middle {
+  display: flex;
+  justify-content: center;
+}
+
+.header-link {
+  text-decoration: none;
+  color: grey;
+  font-weight: bold;
+  padding: 10px;
+  margin: 0 10px;
+  border-radius: 4px;
+}
+
+.header-link:hover {
+  background-color: gray;
+}
